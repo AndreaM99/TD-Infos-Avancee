@@ -88,3 +88,24 @@ p3_1 = Point3D(0,0,1)
 p3_2 = Point3D(0,0,1)
 
 print(ajout_point3d(p3_1, p3_2))
+
+
+# Les classes
+class Point1D:
+  def __init__(self, x):
+    self.x = x
+  def __str__(self):
+    return
+
+np1d = Point1D(0.9)
+print(np1d) # Bizarre donc on creer une fonction
+
+def afficher_point1d(point):
+  print(f"Point: {point.x}")
+
+print(afficher_point1d(np1d))
+
+def afficher(self):
+  return f"Point: {self.x}"
+
+print(np1d.afficher())
