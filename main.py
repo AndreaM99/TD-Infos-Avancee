@@ -24,9 +24,9 @@ print(p2d.y)
 # Ce que l'on a :
 # (0.4, 0.5)
 
-def ajout_point(point1, point2):
-  x = point1[0] + point2[0]
-  print(x)
-  return Point1D
+def ajout_point1d(point1, point2):
+  x = point1.x + point2.x
+  
+  return Point1D(x)
 
-print(f"Addition ok:{ajout_point1d(p_04, p_05)}")print(f"Addition ok:{ajout_point1d(p_04, p_05)}")
+print(f"Addition ok:{ajout_point1d(p_04, p_05)}")
