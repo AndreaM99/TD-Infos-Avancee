@@ -65,6 +65,26 @@ print(f"Addition ok: {ajout2_point2d(p1, p2) == Point2D(1,1)}")
 
 def ajout3_point2d(p_1, p_2):
   coord = tuple(x+y for x, y in zip(p_1,p_2))
-  return Point2D(coord[0], coord[1])
+  return Point2D._make(coord)
 
 print(f"Addition ok: {ajout2_point2d(p1, p2) == Point2D(1,1)}")
+
+#####
+liste = []
+liste.append("a")
+print(liste)
+liste.append("n")
+print(liste)
+#####
+
+# La 3D
+Point3D = namedtuple('Point3D', ['x','y',"z"])
+
+def ajout_point3d(p_1, p_2):
+  
+  return Point3D._make((p1 + p2 for p1, p2 in zip(p_1, p_2)))
+
+p3_1 = Point3D(0,0,1)
+p3_2 = Point3D(0,0,1)
+
+print(ajout_point3d(p3_1, p3_2))
