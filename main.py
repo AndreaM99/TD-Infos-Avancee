@@ -1,5 +1,9 @@
 from collections import namedtuple
-from TD3.bibliotheque import Point1D,Point2D,ajout_point1d,norme1d
+from TD3.bibliotheque import Point1D,Point2D,ajout_point1d,norme1d,moyenne,variance,ecart_type
+
+
+
+########## TD2 ##########
 
 Point1D = namedtuple("Point1D",["x"])
 # namedtuple sert a donner des noms aux variables
@@ -104,3 +108,14 @@ def afficher_point1d(point):
 
 print(afficher_point1d(np1d))
 
+
+
+
+########## TD3 ##########
+
+l_1 = [1,1,1]
+print(l_1)
+
+print(moyenne(l_1))
+print(variance(l_1))
+print(ecart_type(l_1))
