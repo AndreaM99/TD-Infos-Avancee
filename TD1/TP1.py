@@ -1,5 +1,4 @@
 from collections import namedtuple
-from TD3.bibliotheque import Point1D,Point2D,ajout_point1d,norme1d
 
 Point1D = namedtuple("Point1D",["x"])
 # namedtuple sert a donner des noms aux variables
