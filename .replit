@@ -1,2 +1,5 @@
 language = "python3"
-run = "python -m unittest discover"
+run = "python -m unittest discover; python main.py"
+
+# python -m unittest discover; python main.py permet de tout executer
+# python -m unittest discover execute que les tests
