@@ -25,4 +25,13 @@ def variance(liste):
 def ecart_type(liste):
   return sqrt(variance(liste))
 
+def fonction2():
+  return 2
+
+def test_moyenne_111():
+  return moyenne()
+
+def test_ecart_111():
+  return ecart_type()
+
 assert True

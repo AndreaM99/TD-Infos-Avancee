@@ -5,6 +5,8 @@ from TD3.bibliotheque import Point1D,Point2D,ajout_point1d,norme1d,moyenne,varia
 
 ########## TD2 ##########
 
+
+
 Point1D = namedtuple("Point1D",["x"])
 # namedtuple sert a donner des noms aux variables
 print(Point1D)
@@ -112,6 +114,8 @@ print(afficher_point1d(np1d))
 
 
 ########## TD3 ##########
+
+
 
 l_1 = [1,1,1]
 print(l_1)
